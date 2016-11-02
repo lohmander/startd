@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: startd-app
+spec:
+  replicas: 1
+  selector:
+    app: startd-app
+  template:
+    metadata:
+      name: startd-app
+      labels:
+        app: startd-app
+    spec:
+      containers:
+      - name: startd-app
+        image: startd-app
+        ports:
+        - containerPort: 8080
