@@ -1,3 +1,6 @@
 [submodule "configs/rethinkdb"]
 	path = configs/rethinkdb
 	url = https://github.com/rosskukulinski/kubernetes-rethinkdb-cluster.git
+[submodule "manifests/kubernetes-rethinkdb-cluster"]
+	path = manifests/kubernetes-rethinkdb-cluster
+	url = https://github.com/rosskukulinski/kubernetes-rethinkdb-cluster.git
